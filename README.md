@@ -6,6 +6,10 @@
 
 ## Comentários
 
-* O codigo foi desenvolvido utilizando apenas html, css e javascript. Apenas para buscar os dados da API utilizei jQuery e jSon.
-* Tive dificuldade em aplicar os dados do layout no css.
-* Tentei de diversas formas agrupar os produtos mas não consegui desenvolver o JavaScript de forma correta, então dexei apenas 1 produto no layout para não ficar vazio.
+* O codigo foi desenvolvido utilizando apenas html, CSS e JavaScript. Apenas para buscar os dados da API utilizei jQuery e JSON.
+
+* Acabei perdendo bastante tempo com o CSS. Como não tinha experiência com Adobe XD estava implementando os parametros de forma 
+errada e quanto percebi ja era tarde.
+
+* O JavaScript está incompleto pois tentei de diversas formas agrupar os produtos mas não consegui desenvolver o codigo corretamente,
+então dexei apenas 1 produto no layout para não ficar vazio.
