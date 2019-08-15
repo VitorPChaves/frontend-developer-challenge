@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+	font-family: Montserrat, Arial, sans-serif;
+	margin: 0;
+}
+
+footer.footer {
+	display: grid;
+	text-align: center;
+	font-size: 12px;
+	background-color: #707070;
+	color:#FFFFFF;
+}
+
+footer.footer p {
+	margin: 64.64px 0 72px 0; 
+    height: 50px;
+}
+
+
+header.header{ 
+	min-height: 319.33px;
+	background-color: #707070;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+header.header h2{
+	font-size: 20px;
+    font-weight: normal;
+    margin: 0; 
+    padding-top: 69px;
+}
+
+header.header h1 {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0 0 24px 0;
+}
+
+header.header p {
+	font-size: 14px;
+	margin: 0 0 50px 0;
+}
+
+header.button-group {
+	max-width: 769px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+	margin: auto;
+	margin-bottom: 49.33px;
+	justify-content: space-between;
+}
+
+button.header-btn {
+	color: #888888;
+	margin-bottom: 10px;
+    font-size: 14px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    padding: 12px;    
+    width: 160px;
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.16);
+}
+
+section.products, section.share {
+	text-align: center;
+}
+
+section.products p, section.share p {
+	text-align: left;
+}
+
+section.products p.name {
+	font-size: 14px;
+	margin: 14px 0 10px 0;
+}
+
+section.products h2, section.share	h2 {
+	color: #888888;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+section.products p,label , section.share p, label {
+	color: #888888;
+	font-size: 12px;
+	margin: 0px 0 6px 0;
+}
+
+section.products .card-group {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	max-width: 931px;
+	margin: auto;
+}
+
+section.products .card{
+	width: 200px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+section.products .image {
+	display: flex;
+	height: 150px;
+	border: 1px solid #707070;
+	align-items: center;
+	justify-content: center;
+}
+
+section.products h2 {
+	margin-top: 48.67;
+	margin-bottom: 50px;
+}
+
+section.products.btn.larger-btn {
+	margin-top: 2px;
+}
+
+section.share h2 {
+	margin-top: 162px;
+	margin-bottom: 40px;
+}
+
+section.share p {
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+section.share form {
+	margin: 0 auto 50px;
+	max-width: 720px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(340px,auto));
+}
+
+section.share.input{
+	margin: auto 20px;
+}
+
+section.share.input label {
+	display: block;
+	text-align: left;
+}
+
+section.share.input input {
+	width: 100%;
+	max-width: 340px;
+	height: 30px;
+	border: 1px solid #707070;
+	color: #888888;
+	padding: 0 10px;
+	font-size: 14px
+}
+
+button.buy-btn {
+	color: #888888;
+	margin-bottom: 10px;
+    font-size: 14px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    padding: 12px;    
+    width: 160px;
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.16);
+}
+
+button.more-btn {
+	color: #888888;
+	margin-bottom: 10px;
+    font-size: 14px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    padding: 12px;    
+    width: 160px;
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.16);
+}
+
+button.send-btn {
+	color: #888888;
+	margin-bottom: 10px;
+    font-size: 14px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    padding: 12px;    
+    width: 160px;
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.16);
+}
